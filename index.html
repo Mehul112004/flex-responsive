@@ -16,7 +16,6 @@
       font-family: 'Sono', sans-serif;
     }
     .pricing-container{
-      width:100vw;
       height: 100vh;
       display: flex;
       flex-direction: row;
@@ -25,7 +24,6 @@
     }
     .pricing-plan{
       width: 400px;
-      /* height:300px; */
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -70,14 +68,14 @@
     .pricing-plan:hover{
       scale: 150%;
       background-color: hsl(189, 26%, 80%);
-
     }
+    /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
       .pricing-container{
         height: 100%;
         flex-direction: column;
         justify-content: center;
-        overflow: auto;
+        /* overflow: auto; */
       }
 
     }
@@ -117,7 +115,8 @@
       <button class="plan-button">Sign Up</a>
     </div>
   </div>
-
+<a href="https://github.com/Mehul112004/flex-responsive">Source Code</a>
+<footer>@Copyright Mehul Sharma</footer>
 </body>
 
 </html>
